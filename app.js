@@ -27,10 +27,6 @@ shootButton.addEventListener('click', () => {
     resultsList.style.visibility = 'visible';
     computerThrow.style.visibility = 'visible';
 
-    console.log('user', userChoice);
-    console.log('computer', computerChoice);
-    console.log('results', results);
-    console.log(tries);
 
     computerThrew.textContent = computerChoice;
 
@@ -76,11 +72,11 @@ resetButton.addEventListener('click', () => {
     triesText.textContent = tries;
     shootButton.disabled = false;
 
-    console.log(tries);
     
     wins = 0;
     loses = 0;
     draws = 0;
 
 });
+
 
